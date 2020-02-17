@@ -1,6 +1,60 @@
-$body-color: slateblue;
+$body-color: red;
 
 body {
-  color: $body-color;
   font-family: sans-serif;
+}
+h1{
+  color: green;
+  text-align: center;
+}
+h2 {
+  color: olive;
+}
+img {
+  border-radius: 50%;
+}
+table {
+  float: left;
+  border-collapse: collapse;
+  border: 1px solid black; 
+}
+td, th {
+  border: 1px solid  black;
+}
+colgroup {
+  background-color: bisque;
+}
+#tableScale {
+  width: 350px;
+      height: 200px;
+      clear: left;
+}
+#list {
+  clear: left;
+}
+#emptyTable {
+  clear: left;
+  padding: 10px;
+}
+#mainNav {
+  background-color: lightskyblue;
+  padding: 5px;
+}
+main {
+  float: left;
+  width: 70%;
+}
+section {
+  margin: 10px 5px;
+  padding: 10px 5px;
+}
+aside {
+  background-color: rgba(163, 205, 222, 0.5) ;
+  float: right;
+  width: 25%;
+}
+footer {
+  padding: 10px;
+  text-align: right;
+clear: both;
 }
