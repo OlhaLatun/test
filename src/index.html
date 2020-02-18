@@ -9,42 +9,62 @@
 
 <body>
   <header>
-    <h1>ProFrontend Course Tasks</h1>
-    <nav id="mainNav">
-      <a href="#">Images</a>
-      <a href="#">Lists</a>
-      <a href="#">Tables</a>
+    <span>ProFrontend</span>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Blog</a>
+      <a href="#">Store</a>
     </nav>
   </header>
   <main>
-    <section>
-      <h2>Frogs</h2>
-      <p>As a group of frogs was traveling through the woods, two of them fell into a deep pit. When the other frogs
-        crowded around the pit and saw how deep it was, they told the two frogs that there was no
-        hope left for them. However, the two frogs decided to ignore what the others were saying and they proceeded
-        to try and jump out of the pit. Despite their efforts, the group of frogs at the top of the pit were still
-        saying that they should just give up.That they would never make it out escape. Eventually, one of the frogs
-        took heed to what the others were saying and he gave up, falling down to his death. The other frog continued
-        to jump as hard as he could. Again, the crowd of frogs yelled at him to stop the pain and just die.He jumped
-        even harder and finally made it out. When he got out, the other frogs said,
-        “Did you not hear us?” The frog explained to them that he was deaf. He thought they were giving the advice
-        encouraging him he entire time.
+    <h1>My first HTML page</h1>
+    <h2>With styles and semantic tags</h2>
+    <article>
+      <h1 id="articleHeader">EARTH</h1>
+      <p> Earth is the third planet from the <a href="https://en.wikipedia.org/wiki/Sun">Sun</a> and the only
+        astronomical object known to harbor life.
+        According to radiometric dating and other evidence, Earth formed over 4.5 billion years ago.
+        Earth's gravity interacts with other objects in space, especially the Sun and the <a
+          href="https://en.wikipedia.org/wiki/Moon">Moon</a>, which is Earth's only
+        <a href="https://en.wikipedia.org/wiki/Natural_satellite">natural satellite</a>.
+        Earth orbits around the Sun in 365.256 days, a period known as an Earth sidereal year. During this time,
+        Earth rotates about its axis about 366.256 times.
       </p>
-    </section>
-    <figure>
-      <a href="https://en.wikipedia.org/wiki/Earth" target="_blank"> <img
-          src="https://bettonhills.us/files/2018-04/earth-from-space-western-hemisphere-lg.jpg" alt="Earth from space"
-          width="200px"></a>
-      <figcaption>EARTH</figcaption>
-    </figure>
-    <figure>
-      <a href="https://en.wikipedia.org/wiki/Mars" target="_blank"><img src="../src/assets/Mars.jpg" alt="Mars"
-          width="300px">
-      </a>
-      <figcaption>MARS</figcaption>
-    </figure>
+      <figure>
+        <a href="https://en.wikipedia.org/wiki/Earth" target="_blank"> <img
+            src="https://bettonhills.us/files/2018-04/earth-from-space-western-hemisphere-lg.jpg" alt="Earth from space"
+            width="200px"></a>
+        <figcaption>EARTH</figcaption>
+        <a href="https://en.wikipedia.org/wiki/Earth">Wikipedia</a>
+      </figure>
+      <p>Earth's axis of rotation is tilted with respect to its orbital plane, producing seasons on Earth.
+        The gravitational interaction between Earth and the Moon causes tides, stabilizes Earth's orientation
+        on its axis, and gradually slows its rotation. Earth is the densest planet in the Solar System and the
+        largest and most massive of the four rocky planets.
+      </p>
+      <p>Earth's outer layer (lithosphere) is divided into several rigid tectonic plates that migrate across the surface
+        over many millions of years. About 71% of Earth's surface is covered with water, mostly by oceans.
+        The remaining 29% is land consisting of continents and islands that together contain many lakes,
+        rivers and other fresh water, which, together with the oceans, constitute the hydrosphere.
+        The majority of Earth's polar regions are covered in ice, including the Antarctic ice sheet and
+        the sea ice of the Arctic ice pack. Earth's interior remains active with a solid iron inner core,
+        a liquid outer core that generates Earth's magnetic field, and a convecting mantle that drives
+        plate tectonics.
+      </p>
+      <p>Within the first billion years of Earth's history, life appeared in the oceans and began to affect Earth's
+        mosphere and surface, leading to the proliferation of anaerobic and, later, aerobic organisms.
+        Some geological evidence indicates that life may have arisen as early as 4.1 billion years ago.
+        Since then, the combination of Earth's distance from the Sun, physical properties and geological
+        history have allowed life to evolve and thrive. In the history of life on Earth, biodiversity has gone
+        through long periods of expansion, occasionally punctuated by mass extinctions. Over 99% of all
+        species that ever lived on Earth are extinct. Estimates of the number of species on Earth today vary
+        widely; most species have not been described. Over 7.7 billion humans live on Earth and depend on
+        its biosphere and natural resources for their survival. Politically, the world has around 200 sovereign
+        states.
+      </p>
+    </article>
     <section>
-      <h2>Таблица</h2>
+      <h1>Table from prev exercise</h1>
       <table>
         <colgroup>
           <col span="1">
@@ -87,74 +107,36 @@
           </tr>
         </tbody>
       </table>
-      <h2 id="emptyTable">Задание со звездочкой</h2>
-      <table id="tableScale">
-        <tbody>
-          <tr>
-            <td colspan="6"></td>
-            <td></td>
-            <td rowspan="4" , colspan="3"></td>
-          </tr>
-          <tr>
-            <td colspan="3"></td>
-            <td rowspan="2"></td>
-            <td colspan="2"></td>
-            <td></td>
-          </tr>
-          <tr>
-            <td rowspan="3" , colspan="3"></td>
-            <td rowspan="2" colspan="2"></td>
-            <td></td>
-          </tr>
-          <tr></tr>
-          <tr>
-            <td colspan="4"></td>
-            <td colspan="3"></td>
-          </tr>
-          <tr>
-            <td colspan="3"></td>
-            <td></td>
-            <td colspan="4"></td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-    <section id="list">
-      <h2>My favorite series and movies list</h2>
-      <ul>
-        <li>Movies I can re-watch contstantly</li>
-        <ol>
-          <li>Lord of the rings</li>
-          <li>Back to future</li>
-          <li>Harry Potter</li>
-        </ol>
-        <li> Favorite sitcoms</li>
-        <ol>
-          <li>How I met your mother</li>
-          <li>The Big Bang Theory</li>
-          <li>Historical series:</li>
-          <ul>
-            <li>Vikings</li>
-            <li>The Pillars of the Earth</li>
-          </ul>
-        </ol>
-      </ul>
     </section>
   </main>
+  <div class="lineVertical"></div>
   <aside>
-    <nav>
-      <ul>
-        <li><a href="#">About the course</a></li>
-        <li><a href="#">Contact us</a></li>
-        <li><a href="#">Feedback</a></li>
-      </ul>
-    </nav>
+    <h1>My favorite series and movies list</h1>
+    <ul>
+      <li>Movies I can re-watch contstantly</li>
+      <ol>
+        <li>Lord of the rings</li>
+        <li>Back to future</li>
+        <li>Harry Potter</li>
+      </ol>
+      <li> Favorite sitcoms</li>
+      <ol>
+        <li>How I met your mother</li>
+        <li>The Big Bang Theory</li>
+        <li>Historical series:</li>
+        <ul>
+          <li>Vikings</li>
+          <li>The Pillars of the Earth</li>
+        </ul>
+      </ol>
+    </ul>
   </aside>
   <footer>
-    <address>
-      Kyiv, Ukrane <br />
-      Olha Latun <br />
-    </address>
+    <nav>
+      <a href="#">Home page</a>
+      <a href="#">Contact</a>
+      <a href="#">About Us</a>
+    </nav>
   </footer>
 </body>
 

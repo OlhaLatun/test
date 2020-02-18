@@ -3,12 +3,27 @@ $body-color: red;
 body {
   font-family: sans-serif;
 }
-h1{
-  color: darkgreen;
+header, footer {
   text-align: center;
+  background-color: burlywood;
+  padding: 10px;
+  margin: 0px; 
+}
+span {
+  color: white;
+ font-size: 30px;
+}
+nav {
+  padding: 10px;
+}
+h1{
+  color: maroon;
 }
 h2 {
   color: olive;
+}
+#articleHeader {
+  color: green;
 }
 img {
   border-radius: 50%;
@@ -17,6 +32,7 @@ table {
   float: left;
   border-collapse: collapse;
   border: 1px solid black; 
+  margin: 10px;
 }
 td, th {
   border: 1px solid  black;
@@ -24,37 +40,22 @@ td, th {
 colgroup {
   background-color: bisque;
 }
-#tableScale {
-  width: 350px;
-      height: 200px;
-      clear: left;
-}
-#list {
-  clear: left;
-}
-#emptyTable {
-  clear: left;
-  padding: 10px;
-}
-#mainNav {
-  background-color: lightskyblue;
-  padding: 5px;
-}
 main {
   float: left;
   width: 70%;
 }
-section {
-  margin: 10px 5px;
-  padding: 10px 5px;
+.lineVertical {
+  border-right: 2px dashed black;
+  height: 900px;
+  position: absolute;
+  right: 28%;
+  margin-right: -3px;
+  top: 5;
 }
 aside {
-  background-color: rgba(163, 205, 222, 0.5) ;
   float: right;
   width: 25%;
 }
 footer {
-  padding: 10px;
-  text-align: right;
 clear: both;
 }
