@@ -10,3 +10,18 @@ console.log(sum);
 console.log(a - b);
 console.log(a * b);
 console.log(a / b);
+
+const user = {
+    name: "Olha",
+    lastName: "Latun",
+    age: 26,
+    dateOfBirth: "17.01.1994",
+    heigth: 155,
+    petOwner: true,
+    favouriteFood: "peanut butter, fruits, coffee",
+    getUserNameAndDateOfBirth: function () {
+        console.log("Users' name and birthday is ", this.name + this.lastName + this.dateOfBirth)
+    }
+};
+console.log(user);
+user.getUserNameAndDateOfBirth();
