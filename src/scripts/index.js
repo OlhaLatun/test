@@ -20,7 +20,6 @@ const sweets = {
 };
 
 const favouriteFood = [fruits, sweets];
-
 const user = {
   name: "Olha",
   lastName: "Latun",

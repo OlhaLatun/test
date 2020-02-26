@@ -3,22 +3,27 @@ $body-color: red;
 body {
   font-family: sans-serif;
 }
-header, footer {
+video {
+  width: 300px;
+  height: 200px;
+}
+header,
+footer {
   text-align: center;
   background-color: burlywood;
   padding: 10px;
-  margin: 0px; 
+  margin: 0px;
 }
 span {
   color: white;
- font-size: 30px;
+  font-size: 30px;
 }
 nav a {
- color: white;
- text-decoration: none;
- text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
 }
-h1{
+h1 {
   color: maroon;
   text-align: center;
   text-transform: capitalize;
@@ -26,42 +31,43 @@ h1{
 h2 {
   color: olive;
   text-align: center;
-text-transform: capitalize;
+  text-transform: capitalize;
 }
-#sectionWidthHeight {
-width: auto;
-height: 100px;
-border: 2px solid maroon;
-padding: 20px 10px;
-margin: 5px;
-}
-#articleHeader {
+//#sectionWidthHeight {
+//width: auto;
+//height: 100px;
+// border: 2px solid maroon;
+// padding: 20px 10px;
+//margin: 5px;
+//}
+.articleHeader {
   color: #095867;
   background-color: aliceblue;
   text-align: left;
   text-shadow: 3px 2px lightskyblue;
   letter-spacing: 2px;
   text-transform: uppercase;
-
 }
 #tableHeader {
   text-align: left;
 }
- p {
-   text-indent: 25px;
- }
+p {
+  text-indent: 25px;
+}
 
 img {
   border-radius: 50%;
 }
+
 table {
   float: left;
   border-collapse: collapse;
-  border: 1px solid black; 
+  border: 1px solid black;
   margin: 10px;
 }
-td, th {
-  border: 1px solid  black;
+td,
+th {
+  border: 1px solid black;
 }
 colgroup {
   background-color: bisque;
@@ -83,5 +89,5 @@ aside {
   width: 25%;
 }
 footer {
-clear: both;
+  clear: both;
 }
