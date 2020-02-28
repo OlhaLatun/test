@@ -51,10 +51,33 @@ h2 {
 #tableHeader {
   text-align: left;
 }
+#responsiveHeader {
+  font-size: 5vw;
+}
+
 p {
   text-indent: 25px;
 }
 
+.font-sans-serif {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.font-serif {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+}
+
+.font-monospace {
+  font-family: "Courier New", Courier, monospace;
+  font-variant: small-caps;
+}
+
+i.fas {
+  font-size: 50px;
+  color: royalblue;
+}
 img {
   border-radius: 50%;
 }
