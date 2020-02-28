@@ -27,4 +27,5 @@ const user = {
   }
 };
 console.log(user);
+console.log(user.favouriteFood);
 user.getUserNameAndDateOfBirth();
