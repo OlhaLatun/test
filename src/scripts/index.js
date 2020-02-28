@@ -11,15 +11,6 @@ console.log(a - b);
 console.log(a * b);
 console.log(a / b);
 
-const fruits = {
-  fruits: "grapes, bananas, oranges"
-};
-
-const sweets = {
-  sweets: "chocolate, peanut butter, ice-cream"
-};
-
-const favouriteFood = [fruits, sweets];
 const user = {
   name: "Olha",
   lastName: "Latun",
@@ -27,6 +18,7 @@ const user = {
   dateOfBirth: "17.01.1994",
   heigth: 155,
   petOwner: true,
+  favouriteFood: ["peanut butter", "fruits", "coffee"],
   getUserNameAndDateOfBirth: function() {
     console.log(
       "Users' name and birthday is ",
@@ -36,4 +28,3 @@ const user = {
 };
 console.log(user);
 user.getUserNameAndDateOfBirth();
-console.log(favouriteFood);
