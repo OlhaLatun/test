@@ -1,7 +1,7 @@
 import "../styles/index.scss";
 import video from "../assets/video/earthFromSpace.mov";
 import audio from "../assets/audio/spaceSounds.mp3";
-
+import "./events";
 console.log("webpack starterkit");
 
 const a = 13;

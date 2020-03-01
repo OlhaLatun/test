@@ -10,7 +10,7 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
 
-  <body>
+  <body onload="pageIsLoaded()">
     <header>
       <span>ProFrontend</span>
       <nav>
@@ -22,6 +22,24 @@
     <main>
       <h1>My first HTML page</h1>
       <h2>With styles and semantic tags</h2>
+      <div class="inputStyle">
+        <p>The third planet from the Sun is</p>
+        <input
+          type="text"
+          value="Your answer"
+          onchange="answer(this.value)"
+          onkeydown="console.log('key down')"
+          onkeyup="console.log('key up')"
+        />
+        <br />
+        <button onclick="buttonClick()">Click me!</button>
+        <br />
+        <input
+          type="button"
+          value="What is the date today?"
+          onclick="showTodaysDate()"
+        />
+      </div>
       <!-- <section id="sectionWidthHeight">
         Width and height <br />
         test
@@ -58,6 +76,8 @@
         <figure>
           <a href="https://en.wikipedia.org/wiki/Earth" target="_blank">
             <img
+              onmouseover="bigImg(this)"
+              onmouseout="normalImg(this)"
               src="https://bettonhills.us/files/2018-04/earth-from-space-western-hemisphere-lg.jpg"
               alt="Earth from space"
               width="200px"
