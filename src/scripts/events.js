@@ -30,6 +30,16 @@ function pageIsLoaded() {
   console.log("Page is loaded");
 }
 
+function changeColor() {
+  const iconColor = document.getElementsByTagName("i")[0];
+  iconColor.style.color = "green";
+  iconColor.addEventListener("mouseout", () => {
+    const returnColor = document.getElementsByTagName("i")[0];
+    iconColor.style.color = "royalblue";
+  });
+}
+
+window.changeColor = changeColor;
 window.pageIsLoaded = pageIsLoaded;
 window.bigImg = bigImg;
 window.normalImg = normalImg;
