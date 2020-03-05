@@ -41,12 +41,28 @@ h2 {
 }
 
 h3 {
-  position: relative;
   color: white;
+  position: relative;
   top: 50px;
   left: 20px;
 }
 
+ul a:link {
+  color: maroon;
+}
+
+ul a:visited {
+  color: olive;
+}
+
+ul a:hover {
+  background-color: lightgoldenrodyellow;
+  border: 1px solid palevioletred;
+}
+
+ul a:active {
+  color: tomato;
+}
 i.fas {
   position: relative;
   top: -35px;
