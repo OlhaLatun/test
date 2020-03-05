@@ -21,6 +21,11 @@
     </header>
     <main>
       <h1>My first HTML page</h1>
+      <nav id="sticky">
+        <a href="#">Sandbox</a>
+        <a href="#">Article</a>
+        <a href="#">Table</a>
+      </nav>
       <h2>With styles and semantic tags</h2>
       <div class="inputStyle">
         <p>The third planet from the Sun is</p>
@@ -40,10 +45,15 @@
           onclick="showTodaysDate()"
         />
       </div>
-      <!-- <section id="sectionWidthHeight">
-        Width and height <br />
-        test
-      </section> -->
+      <section id="sectionWithPosition">
+        <h3>Mars is gorgeous</h3>
+        <img src="/src/assets/Mars.jpg" alt="Mars" width="200px" />
+        <div>
+          <hr id="rightHr" />
+          <hr id="leftHr" />
+        </div>
+        <i class="fas fa-gift"></i>
+      </section>
       <section>
         <video controls>
           <source src="./earthFromSpace.mov" />
@@ -62,7 +72,7 @@
       </section>
       <article>
         <h1 class="articleHeader">Earth</h1>
-        <i class="fas fa-globe-asia" onmouseover="changeColor()"></i>
+        <!-- <i class="fas fa-globe-asia" onmouseover="changeColor()"></i> -->
         <p>
           Earth is the third planet from the
           <a href="https://en.wikipedia.org/wiki/Sun">Sun</a> and the only
