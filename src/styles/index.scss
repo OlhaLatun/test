@@ -42,7 +42,7 @@ h2 {
 
 h3 {
   color: white;
-  position: relative;
+  position: absolute;
   top: 50px;
   left: 20px;
 }
@@ -64,26 +64,17 @@ ul a:active {
   color: tomato;
 }
 i.fas {
-  position: relative;
-  top: -35px;
-  left: 48%;
+  position: absolute;
+  top: -25px;
+  left: 50%;
   color: red;
+  background-color: white;
   font-size: 40px;
 }
 
-#leftHr {
+hr {
   margin-top: 30px;
-  position: relative;
-  width: 40%;
-  left: 25%;
-}
-
-#rightHr {
-  margin-top: 30px;
-  position: relative;
-  width: 40%;
-  top: 31px;
-  right: 25%;
+  width: 100%;
 }
 
 .articleHeader {
@@ -108,6 +99,14 @@ i.fas {
   padding: 10px;
   position: sticky;
   top: 0px;
+}
+
+#sectionWithPosition {
+  position: relative;
+}
+
+#divWithPosition {
+  position: relative;
 }
 // p {
 // text-indent: 25px;
